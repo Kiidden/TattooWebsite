@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    color: #ffffff;
+    font-family: "sans-serif", "times new roman", "myriad pro", "verdana";
+    background-color: rgb(3, 3, 3);
+}
+
+#wrapper {
+    background-color: #cccccc;
+    width: 100%;
+    min-width: 740px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #990000 solid 10px;
+}
+
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1, h2 {
+    color: #990000;
+    font-style: normal;
+    font-weight: 600;
+    font-family: source-sans-pro;
+}
+
+#main_nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link{
+    color: #990000;
+}
+
+a:visited {
+    color: #999999;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #fc0;
+}
+
+#main_nav a {
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#main_nav a:hover,
+#main_nav a:active,
+#main_nav a:focus,
+#main_nav a.thispage {
+    text-decoration: none;
+    background-color: #faa356;
+}
+
+#hero img {
+    max-width: 100%;
+}
+ 
+#hero {
+    position: relative;
+    clear: left;
+}
+ 
+#hero article {
+    width: 36%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 43px;
+    background-color: #faa356;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+#mainindex {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+ 
+#mainartist {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+ 
+figure img {
+    padding: 10px;
+    background-color: #990000;
+    box-shadow: 1px 1px 15px black;
+    width: 420px;
+    border: 5px solid black;
+}
+ 
+#sidebarindex {
+    width: 34%;
+    margin-left: 4%;
+    float: left;
+}
+ 
+footer {
+    clear: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    background-color: #990000;
+}
+ 
+#sidebarartist {
+    width: 34%;
+    margin-left: 4%;
+    float: left;
+}
+
